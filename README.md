@@ -23,7 +23,7 @@ rm -R mono-3.6.0
 
 
 ## Installeer pango-1.42.4
-Indien je volgende foutmelding krijgt "Harfbuzz version too old error message", lost dit dat probleem op.
+Indien je volgende foutmelding krijgt "Harfbuzz version too old error message", lost dit dat probleem op. Pas ```/home/user``` aan naar je eigen home directory.
 
 ```bash
 curl -JOL http://ftp.acc.umu.se/pub/GNOME/sources/pango/1.42/pango-1.42.4.tar.xz
@@ -36,6 +36,7 @@ make && make DESTDIR="/home/user/oldlib/pango" install
 
 
 ## Start de examentool
+Pas ```/home/user``` aan naar je eigen home directory.
 ```bash
 LD_LIBRARY_PATH=/home/user/oldlib/pango/usr/lib /home/user/downloads/LNX-v4-alpha-P2.2017-18/kdg-xtl
 ```
