@@ -20,7 +20,9 @@ rm mono-3.6.0.tar.bz2
 rm -R mono-3.6.0
 
 
-## Installeer pango-1.42.4 indien je volgende foutmelding krijgt "Harfbuzz version too old error message"
+## Installeer pango-1.42.4
+Indien je volgende foutmelding krijgt "Harfbuzz version too old error message", lost dit dat probleem op.
+
 curl -JOL http://ftp.acc.umu.se/pub/GNOME/sources/pango/1.42/pango-1.42.4.tar.xz
 tar xf pango-1.42.4.tar.xz
 cd pango-1.42.4
