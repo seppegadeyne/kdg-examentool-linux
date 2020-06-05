@@ -1,7 +1,7 @@
 # KdG examentool Linux
 De examentool geeft een foutmelding bij het opstarten in Ubuntu focal. 
 
-# Installeer libgconf-2-4 voor Ubuntu focal (20.04)
+## Installeer libgconf-2-4 voor Ubuntu focal (20.04)
 https://www.ubuntuupdates.org/package/core/focal/universe/base/libgconf-2-4
 
 # Installeer Mono 3.6
